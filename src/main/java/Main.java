@@ -53,65 +53,6 @@ public class Main {
 
 
 
-        /*
-        driver.switchTo().window(wh.get(2));
-        driver.navigate().to("https://www.google.com.ua/?hl=ru");
-         */
-
-
-
-
-
-
-
-
-
-
-
-
-
-       // List<WebElement> adds = driver.findElements(By.xpath("yt-formatted-string[@class='style-scope ytd-video-renderer']"));
-       /* driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-        JavascriptExecutor jsq = (JavascriptExecutor)driver;
-        jsq.executeScript("window.open()");
-        List<String> wh = new ArrayList<>(driver.getWindowHandles());
-        System.out.println(wh);
-        driver.switchTo().window(wh.get(1));
-        driver.navigate().to("https://www.random.org/");
-        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-        driver.findElement(By.xpath("//input[@id = 'true-random-integer-generator-button']")).click();
-        driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
-       /* WebElement number = driver.findElement(By.xpath("//span[@id ='true-random-integer-generator-result']"));
-        String index = number.getText();
-        //int i=Integer.parseInt(index);
-
-
-        /*
-        driver.navigate().to("https://www.random.org/");
-        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-        WebElement min =  driver.findElement(By.xpath("//input[@id ='true-random-integer-generator-min']"));
-        min.sendKeys("1");
-        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-        WebElement max = driver.findElement(By.xpath("//input[@id ='true-random-integer-generator-max']"));
-        max.sendKeys("100");
-        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-        driver.findElement(By.xpath("//input[@id ='true-random-integer-generator-button']")).click();
-        WebElement number = driver.findElement(By.xpath("//span[@id ='true-random-integer-generator-result']"));
-        String index = number.getText();
-        int i=Integer.parseInt(index);
-        adds.get(i).click();
-
-         */
-
-
-
-
-
-
-
-
-////yt-formatted-string[@class='style-scope ytd-video-renderer']
-
 
 
 
