@@ -47,6 +47,7 @@ public class Main {
         driver.switchTo().window(wh.get(0));
         List<WebElement> adds = driver.findElements(By.xpath("//yt-formatted-string[@class = 'style-scope ytd-video-renderer']"));
         adds.get(i).click();
+        driver.quit();
 
 
 
